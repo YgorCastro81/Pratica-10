@@ -1,0 +1,119 @@
+body {
+    background-color: rgba(139, 136, 146, 0.945);
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: space-between; /* Garante que o conteúdo e o rodapé estejam separados */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    height: 100vh;
+    margin: 0; /* Remove as margens padrão do body */
+    background-image: url(../imagens/the\ batman-\ imagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+a {
+    text-decoration: none;
+    color: white; /* Cor do texto dos links */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 200px;
+}
+
+html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 60px auto 60px;
+    flex: 1; /* Permite que o container principal cresça para ocupar o espaço disponível */
+}
+
+.header, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%; /* Garante que o cabeçalho e o rodapé ocupem toda a largura */
+}
+
+.header h1, .footer address {
+    color: whitesmoke;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* Permite que o conteúdo principal cresça para ocupar o espaço disponível */
+}
+
+.footer {
+    position: relative; /* Remove a posição fixa para permitir o comportamento desejado */
+}
+
+.footer address {
+    font-weight: 300; /* Define a espessura da fonte do endereço do rodapé */
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites do container */
+}
+
+.footer address a {
+    font-weight: 400; /* Define a espessura da fonte dos links dentro do endereço do rodapé */
+    color: white; /* Define a cor dos links */
+}
+
+.credit {
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 1.3em;
+    color: whitesmoke;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.credit a {
+    color: turquoise;
+    transition: 1s;
+}
+
+.credit a:hover {
+    color: white;
+    text-shadow: 0 0 8px white;
+}
+
